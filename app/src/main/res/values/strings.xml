@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Earth Guide</string>
+
+    <string name="category_attraction">Attraction</string>
+    <string name="category_food">Food</string>
+    <string name="category_shelter">Shelter</string>
+    <string name="category_connection">Connection</string>
+
+    <integer-array name="attraction_images">
+        <item>@drawable/attraction_air</item>
+        <item>@drawable/attraction_ground</item>
+        <item>@drawable/attraction_water</item>
+        <item>@drawable/attraction_ground</item>
+        <item>@drawable/attraction_ground</item>
+    </integer-array>
+    <string-array name="attraction_names">
+        <item>Air, atmosphere, sky</item>
+        <item>Ground</item>
+        <item>Water</item>
+        <item>Life</item>
+        <item>Structures</item>
+    </string-array>
+    <string-array name="attraction_descriptions">
+                <item>The atmosphere is the blanket of gases which surrounds Earth. It is held near
+                    the surface of the planet by Earth\'s gravitational attraction.\n
+\n
+            Some of notable atmosphere features are: Wind, Clouds, Rainbow, Aurora Borealis.\nJust stand in open place and look up.\n
+\n
+            The atmosphere:\n
+            * contains the air we breathe;\n
+            * protects life from harmful radiation from the Sun;\n
+            * helps keep the planet\'s heat from the Sun from escaping back into space;\n
+            * creating pressure allowing for liquid water to exist on the Earth\'s surface and is a major element of the water cycle;\n
+            * keeps the climate on Earth moderate compared to that of other planets.\n
+        \n
+            The Earth atmosphere is made up of a mixture of gases, mostly nitrogen, oxygen, argon
+                     and carbon dioxide. It reaches over 500km above the surface of the planet. There is no exact boundary between the atmosphere and outer space. Atmospheric gases become thinner the higher up you go. The atmosphere just keeps getting less and less dense, until it blends into outer space.
+        </item>
+        <item>Desc</item>
+        <item>Desc</item>
+        <item>Desc</item>
+        <item>Desc</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_place">PlaceActivity</string>
+
+
+</resources>
