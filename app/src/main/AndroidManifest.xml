@@ -18,7 +18,6 @@
         </activity>
         <activity
             android:name=".activities.PlaceActivity"
-            android:label="@string/title_activity_place"
             android:theme="@style/AppTheme"
             android:parentActivityName=".activities.MainActivity">
             <meta-data

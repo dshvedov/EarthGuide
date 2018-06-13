@@ -5,10 +5,10 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import ru.d9d.earthguide.R;
-import ru.d9d.earthguide.fragments.AttractionFragment;
-import ru.d9d.earthguide.fragments.ConnectionFragment;
-import ru.d9d.earthguide.fragments.FoodFragment;
-import ru.d9d.earthguide.fragments.ShelterFragment;
+import ru.d9d.earthguide.fragments.LandmarksFragment;
+import ru.d9d.earthguide.fragments.ParksFragment;
+import ru.d9d.earthguide.fragments.MonumentsFragment;
+import ru.d9d.earthguide.fragments.MuseumsFragment;
 
 public class CategoryFragmentAdapter extends FragmentPagerAdapter {
 
@@ -24,25 +24,25 @@ public class CategoryFragmentAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new AttractionFragment();
+            return new LandmarksFragment();
         } else if (position == 1){
-            return new FoodFragment();
+            return new MonumentsFragment();
         } else if (position == 2){
-            return new ShelterFragment();
+            return new MuseumsFragment();
         } else {
-            return new ConnectionFragment();
+            return new ParksFragment();
         }
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
-        if (position == 0) return mContext.getString(R.string.category_attraction);
+        if (position == 0) return mContext.getString(R.string.category_landmarks);
         else if (position == 1) {
-            return mContext.getString(R.string.category_food);
+            return mContext.getString(R.string.category_monuments);
         } else if (position == 2) {
-            return mContext.getString(R.string.category_shelter);
+            return mContext.getString(R.string.category_museums);
         } else {
-            return mContext.getString(R.string.category_connection);
+            return mContext.getString(R.string.category_parks);
         }
     }
 

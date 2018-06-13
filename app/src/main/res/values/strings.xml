@@ -1,50 +1,116 @@
 <resources>
-    <string name="app_name">Earth Guide</string>
+    <string name="app_name">Belgorod Tour Guide</string>
 
-    <string name="category_attraction">Attraction</string>
-    <string name="category_food">Food</string>
-    <string name="category_shelter">Shelter</string>
-    <string name="category_connection">Connection</string>
+    <!-- Categories titles -->
+    <string name="category_landmarks">Landmark</string>
+    <string name="category_monuments">Monument</string>
+    <string name="category_museums">Museum</string>
+    <string name="category_parks">Park</string>
 
-    <integer-array name="attraction_images">
-        <item>@drawable/attraction_air</item>
-        <item>@drawable/attraction_ground</item>
-        <item>@drawable/attraction_water</item>
-        <item>@drawable/attraction_ground</item>
-        <item>@drawable/attraction_ground</item>
+    <!-- Images content description -->
+    <string name="place_image">Place image</string>
+
+    <!-- Places information content: -->
+    <!-- Names -->
+    <string-array name="landmarks_names">
+        <item>Chalk mountains</item>
+        <item>\"Observation deck\"</item>
+        <item>Sobornaya Square</item>
+        <item>Friendship Square</item>
+        <item>\"Rusich\"</item>
+        <item>Sundial</item>
+    </string-array>
+    <string-array name="monuments_names">
+        <item>Vladimir The Great</item>
+        <item>Tsar Fyodor Ivanovich</item>
+        <item>Fountain \"Patron\"</item>
+        <item>\"Remembrance\"</item>
+        <item>The Street Cleaner</item>
+        <item>The Volleyball Players</item>
+    </string-array>
+    <string-array name="museums_names">
+        <item>Museum-Diorama Kursk Battle. Belgorod Direction</item>
+        <item>State Museum of History and Regional Studies</item>
+        <item>State Art Museum</item>
+        <item>Exhibition Hall \"Motherland\"</item>
+        <item>State Museum of Folk Culture</item>
+    </string-array>
+    <string-array name="parks_names">
+        <item>City Culture and Recreation Park</item>
+        <item>Victory Park</item>
+        <item>Picnic Park</item>
+        <item>Zoopark</item>
+        <item>Dinopark</item>
+        <item>Biking and Skiing Trail \"Olympia\"</item>
+        <item>Dubovoe Park</item>
+    </string-array>
+
+    <!-- Images -->
+    <integer-array name="landmarks_images">
+        <item>@drawable/landmark_chalk</item>
+        <item>@drawable/landmark_observation</item>
+        <item>@drawable/landmark_sobornaya</item>
+        <item>@drawable/landmark_friendship</item>
+        <item>@drawable/landmark_rusich</item>
+        <item>@drawable/landmark_sundial</item>
     </integer-array>
-    <string-array name="attraction_names">
-        <item>Air, atmosphere, sky</item>
-        <item>Ground</item>
-        <item>Water</item>
-        <item>Life</item>
-        <item>Structures</item>
-    </string-array>
-    <string-array name="attraction_descriptions">
-                <item>The atmosphere is the blanket of gases which surrounds Earth. It is held near
-                    the surface of the planet by Earth\'s gravitational attraction.\n
-\n
-            Some of notable atmosphere features are: Wind, Clouds, Rainbow, Aurora Borealis.\nJust stand in open place and look up.\n
-\n
-            The atmosphere:\n
-            * contains the air we breathe;\n
-            * protects life from harmful radiation from the Sun;\n
-            * helps keep the planet\'s heat from the Sun from escaping back into space;\n
-            * creating pressure allowing for liquid water to exist on the Earth\'s surface and is a major element of the water cycle;\n
-            * keeps the climate on Earth moderate compared to that of other planets.\n
-        \n
-            The Earth atmosphere is made up of a mixture of gases, mostly nitrogen, oxygen, argon
-                     and carbon dioxide. It reaches over 500km above the surface of the planet. There is no exact boundary between the atmosphere and outer space. Atmospheric gases become thinner the higher up you go. The atmosphere just keeps getting less and less dense, until it blends into outer space.
-        </item>
-        <item>Desc</item>
-        <item>Desc</item>
-        <item>Desc</item>
-        <item>Desc</item>
-    </string-array>
+    <integer-array name="monuments_images">
+        <item>@drawable/monument_vladimir</item>
+        <item>@drawable/monument_fedor</item>
+        <item>@drawable/monument_patron</item>
+        <item>@drawable/monument_remembrance</item>
+        <item>@drawable/monument_dvornik</item>
+        <item>@drawable/monument_voleyball</item>
+    </integer-array>
+    <integer-array name="museums_images">
+        <item>@drawable/museum_diorama</item>
+        <item>@drawable/museum_history_region</item>
+        <item>@drawable/museum_state_arts</item>
+        <item>@drawable/museum_rodina</item>
+        <item>@drawable/museum_folk_culture</item>
+    </integer-array>
+    <integer-array name="parks_images">
+        <item>@drawable/park_central</item>
+        <item>@drawable/park_victory</item>
+        <item>@drawable/park_picnic</item>
+        <item>@drawable/park_zoopark</item>
+        <item>@drawable/park_dinopark</item>
+        <item>@drawable/park_olympia</item>
+        <item>@drawable/park_dubovoe</item>
+    </integer-array>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_place">PlaceActivity</string>
-
+    <!-- Descriptions -->
+    <string-array name="landmarks_descriptions">
+        <item>Why is the city called Belgorod, and all its surroundings Belogorie? In fact, everything is very simple. Word \"White\" translates as \"Beliy\" into Russian. Belgorod stands on the Cretaceous sediments, that is, on the most ordinary white chalk. It is surrounded by chalky hills and mountains, and it costs you to drive away from the city for several tens of kilometers, as one can even see the process of mining this chalk itself.\nOne of the closest of the chalk mountains (and most popular among the tourists) is located in the city, in the northeast area.</item>
+        <item>At the foot of the monument to Prince Vladimir, the best city viewing platform is located - from here, you can literally see more than a half of entire city.</item>
+        <item>Sobornaya Square (eng. Cathedral Square) (the former Revolution Square) is the main square of Belgorod. From 1932 to July 1, 2004 was called the Revolution Square.\nVarious events are held in the square: holidays, rallies, actions, military parades, flash mobs, etc.\nThe square is located in the center of the city. Nearby are the Museum-diorama \"Kursk battle. Belgorod direction \", a local history museum, an art museum, a music college, a new building of the Belgorod registry office, the Belgorod statistics center, Victory Park.\nThe square is paved with a unique pattern: in the center is a large copper circle with a map of the Belgorod region, and along the perimeter of the circle there are 21 metal rectangles with the emblems of the districts and city districts of the Belgorod region.</item>
+        <item>The Square of Friendship is a sign of Belgorod\'s partnership with seven sister cities.\nThe main symbol of friendly relations is a wrought-iron tree. It firmly stands on a variety of roots, which mean a connection with sister cities. From the tree stretches the alley, both sides of which are decorated with forged leaves. Each depicts the arms of the allied cities. Ten more leaves remain unfilled as a sign that Belgorod is open for a new friendship.</item>
+        <item>In the area of cinema \"Rusich\" you can watch a movie, visit a cafe, admire the beautifully illuminated high-rise TV tower, and one of the best freely available children\'s playgrounds in the city is also equipped here. At night, fascinating multicolored \"dancing\" fountains are lit here.</item>
+        <item>Being practically in the very center of the city, the sundial is noticeable from afar and attracts attention with its unusual outlines. Similar to the huge compasses, or the monument from the past, the sundial is in excellent condition, and in sunny weather, you can find out which is the hour now. There is arrow, directed in the sky, the shadow from which is sent to the dial. Of course, such watches only work in clear weather. Naturally, from a practical point of view, they are imperfect, as the accuracy of the indications leaves much to be desired, but the construction of bronze and granite is very interesting for people who are addicted to history, astronomy and physics.\nAlso in the night, watches with a giant dial with a diameter of 11 meters give an opportunity to view the brightest constellations that can be seen in our hemisphere.</item>
+    </string-array>
+    <string-array name="monuments_descriptions">
+        <item>Vladimir The Great is conditionally considered the founder of the city of Belgorod, although there is no documentary evidence of this.\nThe monument to Prince Vladimir is considered one of the symbols of the modern city of Belgorod.</item>
+        <item>Monument to the Tsar of All Russia and the Grand Duke of Moscow, Fyodor Ioannovich is installed in the center of the city, on Narodniy Boulevard. According to historical documents, 420 years ago, in 1596, it was under his decree that the Belgorod fortress was built, so that the figure of the king is installed on the boulevard is not accidental.</item>
+        <item>At the entrance to Belgorod National Research University (BNRU) meets the sculpture of the archangel Gabriel - the spiritual patron of the university, located on the fountain. Fountain \"Patron\" - a static fountain with colored program lighting. In addition, the ball in the hand of Gabriel also shines, and unlike the rest of the illumination, it shines and when the fountain is turned off.</item>
+        <item>The official name of the creation is \"Reminiscence\" (unofficial one - \"Grandmother\"). So it was named by young sculptors from Kharkov Taras Kostenko and Dmitry Ivanchenko. According to the architects, the work symbolizes the transience of time.</item>
+        <item>On one of the central streets of Belgorod is a monument to the street cleaner. It was installed in 2006, and is interesting not only for the colorfulness of the janitor\'s figure, but also for the fact that it is a composition in which the cat plays an equally important role. Both figures, and cats, and janitor are made of bronze.\nBy the way the cat quietly sits at the feet of the janitor, it can be seen that such pastime is usual for her. In those days, when the janitor looked like Taras Kostenko, the picture where the main characters were a janitor and a cat, was familiar. Such a plot could be observed in any yard, so the monument to the janitor turned out to be more than realistic. The plot of the city\'s sculpture is exactly this and interesting, it is close and understandable to every passerby, and therefore so beloved by the townspeople.</item>
+        <item>Expressing deep gratitude for the great contribution to the development of the national volleyball and the upsurge of the sports movement in Belgorod, having paid tribute to the victories of our volleyball team, the authorities of Belgorod and the region decided to please athletes and residents by installing a monument in honor of the outstanding athletes of the star team \"Lokomotiv-Belogorye\".</item>
+    </string-array>
+    <string-array name="museums_descriptions">
+        <item>Diorama (from the Greek \"dia\" - through and \"horama\" - sight) is a ribbon-like, curved in plan semicircular scenic picture with a front subject plan (constructions, real and fake objects) and artificial lighting.\nThe diorama \"Fiery arc\" was created by a creative group of artists-batalists, the Orders of the Red Banner of Labor and the Red Star of the Studio named after M.B. Grekova: People\'s Artist of the RSFSR Butom Nikolai Yakovlevich (group leader), Honored Artists of the RSFSR Sevostyanov Gennady Kirillovich and Shcherbakov Victor Nikolayevich, as well as artist Sychov Mikhail Antonovich.\nThe basis for the artistic design of the largest diorama in Europe was the tank battle near Prokhorovka during Great Patriotic War on July 12, 1943, the victory of which became a turning point in the defense of the Kursk salient.\nThe museum also presents other exhibits, including things from the times of the World War II and a photo exhibition.\nOutdoors, behind the main building is an observation deck on which the technique of the period of the Great Patriotic War is installed.</item>
+        <item>Belgorod State Museum of Local History is one of the oldest cultural institutions not only in the city of Belgorod, but in the whole region. It was opened on October 25, 1924. To date, the fund of the museum has been formed, which has about 160 thousand exhibits.\nIn the winter of 1994, an exposition was opened here titled \"On the Memory of the Past, Returning &#8230;\". It presents unique exhibits that introduce visitors to the nature of the region, the variety of flora and fauna of Belgorod. Among them, a special place is occupied by monuments of archeology, information about the appearance of Belgorod itself and its role in the history of the state, about the most important events that took place on the territory, and the outstanding inhabitants of the city.\nCollections of the museum: archeological, ethnographic, collection of weapons, numismatics, painting, arts and crafts.</item>
+        <item>The museum is located in a building built in the Art Nouveau style, designed by the architects V.V. Pertseva and V.A. Turchenko. The museum has about 3,700 exhibits of painting, graphics, sculpture, arts and crafts, iconography. Most Soviet art of the 20th century is represented, but there are also exhibitions and valuable artifacts dedicated to the early, ancient periods of history. There are temporary exhibitions, in which mainly the works of contemporary artists are presented.\nThe exhibition area is 1353 m²; temporary exhibitions - 466.3 m².</item>
+        <item>Center for Contemporary Fine Arts of Belgorod. Among the priority tasks of the hall is the popularization of the creativity of the Belgorod artists.\nThe exhibition hall is located in the reconstructed room, where more than 40 years ago the Belgorod organization of the Union of Artists of Russia began its activity. Thanks to the initiative of the organization and the support of the governor, the city received a real center of contemporary art practice.</item>
+        <item>In the structural and architectural decisions of the exposition symbols are widely used, the oldest form of preservation and transmission of knowledge. The stand in the center of the hall in the form of a cross in the circle (the symbol of the planet Earth, the symbol of the four elements that make up the universe) is the core, the axis of the exposition. There are materials about the origins, roots of traditional culture, revealing the meaning of the concept of \"culture\".\nThe exposition presents the authentic subjects of the so-called \"Scythian\" tribes that lived two and a half thousand years ago, materials that tell about the beliefs, rites, customs, activities and crafts of the ancient Slavs: ceramic utensils, tools, ornaments of bronze and ceramics - authentic monuments of culture of the tribes of the Khazar Kaganate, who lived on the territory of the region in the 8th-10th centuries.\nThe exposition of the museum presents documents on the founding of Belgorod at the end of the 16th century, maps of the Belgorod Discharge Scheme and the Belgorod Defense Line, equipment of a Russian soldier, archer\'s costume, etc.\nOne of the main themes of the exposition is the history of the Russian peasantry. It was in the midst of the peasants that traditions that passed from generation to generation and survived to the present day were preserved.\nIn addition to displaying a permanent exhibition, the museum periodically organizes thematic and personal exhibitions of masters of arts and crafts in the region. The priority of the museum is working with children and families: the Family Center is being created in the museum, the \"Women\'s Club\" is working. There are so-called master classes on various crafts. The museum\'s mission is to become the main center of spiritual and moral education.</item>
+    </string-array>
+    <string-array name="parks_descriptions">
+        <item>The largest park in the center of city. A place familiar to every Belgorod since childhood. Here, the townspeople spend a lot of pleasant minutes. This is so-called the soul and heart of Belgorod parks. Any adult or child could have nice time here: riding on exciting attractions, fun games on the playgrounds, children\'s playgrounds, visiting the Tropikano children\'s center, a cafe or just walking along shady green alleys and paths.</item>
+        <item>Between the museum square and the university\'s sports complex is a small Victory Park.\nAlley Memory of the heroes is laid in honor of the heroes who gave their lives for the liberation of their native land from the Nazi invaders. On the alley on the concrete pedestals 12 busts of Belgorod citizens, awarded the title of Hero of the Soviet Union, were installed.\nAt the head of all busts is a monument to Marshal G. Zhukov. It was opened on August 5, 1998 on the city day.\nThe main monument on the central avenue of Victory Park is the monument \"Victory in the Patriotic War\", created by the Moscow sculptor V. Chukharkin. This composition was installed in honor of the 40th anniversary of the Battle of Kursk and the liberation of the city of Belgorod from the Nazi invaders.\nAlso on the main avenue of Victory Park there is a dynamic fountain.</item>
+        <item>\"Picnic Park\" is located far from the city bustle and at the same time very close to the city, in the area of a new bypass road between the village of Razumnoe and the village of Solomino.\nThis is a well-equipped recreation area with developed infrastructure. Pavilions with barbecue facilities, a beach with sunbeds and a volleyball court, a rope park, a children\'s playground, a straw labyrinth, a cardiotrace, a path for Nordic walking, and an arbalest shooting range.</item>
+        <item>Belgorod Zoo - an ideal place for a family holiday, where you can personally observe the life of animals. It\'s impossible to drive past the entrance to the zoo. At the stopping complex set a large sign, so that finding a new house of animals will not be difficult.\nThe place for the zoo was chosen the most suitable: near the city, far enough from the roadway, in the forest park area. It is located in Sosnovka at the intersection of Volchanskaya and Peschanaya streets.\nThe territory of the zoo is 25 hectares and accommodates 43 exposures for animals with spacious outdoor walks and heated rooms for wintering. The zoo is divided into special zones: \"Far East\", \"Europe\", \"Africa\", \"Russian North\". The animals living in the Belgorod region are singled out in a separate geographical area. For waterfowl, an artificial lake with a capacity of 15 thousand cubic meters is equipped. meters.\nOn the territory there are cafes, benches for rest, a toilet, a picnic area, children\'s playgrounds, a \"riddle\" stand (about lions), \"Grandma\'s yard\" where you can see rabbits and kids, a book of reviews and much more.</item>
+        <item>The beautiful environment of a forest with mysterious lake and swamp, dozens of life-size static and robotic models of dinosaurs, a unique 3D cinema, DinoMuseum with replicas of finds hundreds of millions of years old from all over the world, and children’s attractions together with a new zoo. If you like to explore and discover, have fun and play, then come on a trip full of excitement, come on an actual trip to the Mesozoic era!</item>
+        <item>The length of the route is 3,333 meters, the width of the canvas is 5 meters. The sports facility is suitable for conducting competitions of the highest level. And this means that for an active family holiday, the track will certainly fit.\nIn order to once ride on a ski or bike, you do not need to buy expensive equipment. Here you can rent equipment. In case you have not learned yet, your legs do not obey and go in different directions, it is possible to hire a professional instructor. If you have your own equipment, you can use the track for free.</item>
+        <item>A well-organized park in the suburbs of Belgorod, with beautiful landscapes, ponds, surrounded by trees, shady walking trails and a picnic area.\nIn the park grows a huge oak tree, aged more than 160 years, according to legend planted by B. Khmelnitsky in honor of the reunification of Russia with Ukraine in the XVII century. The tree is a monument of nature and is taken under the protection of the state.</item>
+    </string-array>
 
 </resources>

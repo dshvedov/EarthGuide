@@ -5,38 +5,30 @@
     android:id="@+id/list_item"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="8dp"
-    android:background="@color/itemBackground">
+    android:background="@color/itemBackground"
+    android:padding="@dimen/generic_padding">
 
     <ImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
-        android:layout_height="128dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
-        android:scaleType="centerCrop"
+        android:layout_height="@dimen/list_image_height"
+        android:layout_marginBottom="@dimen/generic_padding"
         android:background="@color/colorPrimary"
+        android:contentDescription="@string/place_image"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:src="@drawable/attraction_air" />
+        tools:src="@drawable/landmark_chalk" />
 
     <TextView
         android:id="@+id/text_name"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginStart="24dp"
-        android:gravity="center_vertical"
-        android:text="TextView"
-        android:textSize="24sp"
-        android:textColor="@color/textColor"
+        style="@style/OverlayHeader"
         app:layout_constraintBottom_toBottomOf="@+id/image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:text="Air, atmosphere, sky" />
+        tools:text="Chalk mountains" />
 
 
 </android.support.constraint.ConstraintLayout>

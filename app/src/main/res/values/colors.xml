@@ -4,8 +4,11 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="textColor">#FFF</color>
-    <color name="colorTan">#f0f0f0</color>
+    <color name="textColor">#333</color>
+    <color name="textHeaderColor">#FFF</color>
+    <color name="textOutlineColor">#000</color>
+    <color name="textOverlayColor">#86000000</color>
+    <color name="colorTan">#F0F0F0</color>
 
     <color name="itemBackground">@color/colorTan</color>
 </resources>

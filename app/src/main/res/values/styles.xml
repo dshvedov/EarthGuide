@@ -15,6 +15,26 @@
         <item name="elevation">0dp</item>
     </style>
 
+    <style name="OverlayHeader">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/textHeaderColor</item>
+        <item name="android:textSize">@dimen/list_text_size_header</item>
+
+        <item name="android:paddingBottom">@dimen/generic_padding</item>
+        <item name="android:paddingTop">@dimen/generic_padding</item>
+        <item name="android:paddingLeft">@dimen/list_margin_horizontal</item>
+        <item name="android:paddingRight">@dimen/list_margin_horizontal</item>
+        <item name="android:background">@color/textOverlayColor</item>
+
+        <item name="android:shadowColor">@color/textOutlineColor</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
